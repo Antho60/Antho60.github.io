@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "cspolice";
+    src: url('police/cs_regular.ttf');
+}
+.bcg{
+    background-color: gray;
+    height: 550px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: cspolice;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h2{
+    text-align: center;
+    font-size: 64px;
+    font-family: cspolice;
+    margin-bottom: 0px;
+}
+.ligne{
+    height: 5px;
+    background-color: black;
+}
+li{
+    list-style: none;
+}
+.compet{
+    height: 400px;
+    background-color: black;
+    color:white;
+}
+.exp{
+    height: 400px;
+    background-color: green;
+}
+.info{
+    height: 400px;
+    background-color: red;   
+}                        
+.contact{
+    height: 400px;
+    background-color: blueviolet;  
+}
+.bcgcompet{
+    height: 400px;
+    width: 75%;
+    background-color: lightseagreen;
+}
+.bcgform{
+    height: 400px;
+    width: 75%;
+    background-color: cyan;
+}
+.bcginfo{
+    height: 400px;
+    width: 75%;
+    background-color: red; 
+}
+.bcgcontact{
+    height: 400px;
+    width: 75%;
+    background-color:lightslategray;
+}
+.bcgexp{
+    height: 400px;
+    width: 75%;
+    background-color: green;
+}
+.listcompet{
+    font-size: 25px;
+}
+.listexp{
+    font-size: 22px;
+}
+.listinfo{
+    font-size: 19px;
+}
+.listcontact{
+    font-size: 16px;
+}
+li{
+    list-style:none;
+}
+#contacttop{
+    margin-top: 110px;
+}
+#exptop{
+    margin-top:25px;
+}
+#infotop{
+    margin-top: 45px;
+}
+.titre{
+    text-align: center;
+    font-size: 25px;
+}
+.jesaispas{
+    width: 5%;
+}
+.ulmenu{
+    padding: 0px;
+    text-align: center;
+}
+.form{
+    height: 400px;
+    background-color: pink;
+}
+.hover:before {
+	content:'';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 0px;
+	background: rgba(255,255,255,0.3);
+	transition: all 2s ease;
+}
+.hover:hover:before {
+	height: 400px;
+}
+.ulcompet{
+        float: left;    
+}
+.licompet{
+    margin-top:25px;
+    font-size: 25px;
+}
+.ulcompet2{
+    float:left;
+   margin-left:100px;
+}
+.ulcompet3{
+   margin-left:500px;
+}
