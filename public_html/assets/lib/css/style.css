@@ -2,9 +2,17 @@
     font-family: "cspolice";
     src: url('police/cs_regular.ttf');
 }
+@font-face {
+    font-family: "police1";
+    src: url('police/police1.ttf');
+}
+body{
+background-image:radial-gradient(white, black);
+}
 .bcg{
-    background-color: gray;
+background-color: #303336;
     height: 550px;
+    border: 5px solid black;
     margin-top: 50px;
     overflow: hidden;
 }
@@ -14,61 +22,84 @@ h1{
     font-family: cspolice;
     margin-bottom: 0px;
     margin-top: 0px;
+    color:white;
 }
 h2{
     text-align: center;
     font-size: 64px;
     font-family: cspolice;
     margin-bottom: 0px;
+    color:white;
 }
 .ligne{
     height: 5px;
-    background-color: black;
+    background-color: red;
 }
 li{
     list-style: none;
 }
 .compet{
     height: 400px;
-    background-color: black;
-    color:white;
-}
+    background-color: #0094CD;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+  }
 .exp{
     height: 400px;
-    background-color: green;
-}
+    background-color: #0094CD;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;}
 .info{
     height: 400px;
-    background-color: red;   
-}                        
+    background-color: #0094CD;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;}
 .contact{
     height: 400px;
-    background-color: blueviolet;  
+    background-color: #0094CD;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
 }
 .bcgcompet{
     height: 400px;
     width: 75%;
-    background-color: lightseagreen;
+    background-color: #015A9E;
+    border: 1px solid white;
 }
 .bcgform{
     height: 400px;
     width: 75%;
-    background-color: cyan;
+    background-color: #015A9E;
+    border: 1px solid white;
 }
 .bcginfo{
     height: 400px;
     width: 75%;
-    background-color: red; 
+    background-color:#015A9E;
+    border: 1px solid white;
 }
 .bcgcontact{
     height: 400px;
     width: 75%;
-    background-color:lightslategray;
+    background-color:#015A9E;
+    border: 1px solid white;
 }
 .bcgexp{
     height: 400px;
     width: 75%;
-    background-color: green;
+    background-color: #015A9E;
+    border: 1px solid white;
+}
+.form{
+    height: 400px;
+    background-color: #0094CD;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
 }
 .listcompet{
     font-size: 25px;
@@ -82,6 +113,9 @@ li{
 .listcontact{
     font-size: 16px;
 }
+.listform{
+  font-size: 17px;
+  }
 li{
     list-style:none;
 }
@@ -94,9 +128,13 @@ li{
 #infotop{
     margin-top: 45px;
 }
+#formaotop{
+  margin-top: 83px;
+}
 .titre{
     text-align: center;
     font-size: 25px;
+    text-decoration: underline;
 }
 .jesaispas{
     width: 5%;
@@ -104,35 +142,95 @@ li{
 .ulmenu{
     padding: 0px;
     text-align: center;
-}
-.form{
-    height: 400px;
-    background-color: pink;
-}
-.hover:before {
-	content:'';
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	width: 100%;
-	height: 0px;
-	background: rgba(255,255,255,0.3);
-	transition: all 2s ease;
-}
-.hover:hover:before {
-	height: 400px;
+    font-family: cspolice;
 }
 .ulcompet{
-        float: left;    
+        float: left;
 }
 .licompet{
-    margin-top:25px;
-    font-size: 25px;
+    margin-top:20px;
+    font-size: 20px;
+    font-family: police1;
+    color: white;
 }
 .ulcompet2{
     float:left;
-   margin-left:100px;
+   margin-left:70px;
 }
 .ulcompet3{
-   margin-left:500px;
+  float:left;
+   margin-left:70px;
+}
+.ulcompet4{
+  float:left;
+   margin-left:70px;
+}
+.pict{
+  height: 350px;
+  width: 250px;
+}
+.ulinfo{
+  font-size: 30px;
+  margin-top: 15px;
+  margin-left: 250px;
+  font-family: police1;
+  color: white;
+}
+.jesaispas:hover{
+  background-color: #282D8D;
+  transition: 2s;
+  border: 1px solid white;
+  color: white;
+}
+.infos{
+  font-size: 20px;
+  font-family: police1;
+  color: white;
+    margin-top: 30px;
+}
+.forms{
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: police1;
+  color: white;
+}
+.test{
+  float: right;
+}
+
+#githubtxt{
+  margin-left: 18px;
+  font-family: police1;
+  font-size: 20px;
+  color: white;
+}
+#pdftxt{
+  margin-left: 0px;
+  font-family: police1;
+  font-size: 20px;
+  color: white;
+}
+#pictgithub{
+  margin-top: 15px;
+  margin-left: 5px;
+  height: 100px;
+  width: 100px;
+}
+
+#pictpdf{
+    margin-left:15px;
+  margin-top:15px;
+  height: 100px;
+  width: 100px;
+}
+#pictsteam{
+  margin-top:15px;
+  height: 100px;
+  width: 100px;
+}
+#steamtxt{
+  font-family: police1;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
 }

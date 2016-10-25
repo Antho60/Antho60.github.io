@@ -1,18 +1,18 @@
 $(document).ready(function(){
-   
+
    $(".compet").click(function(){
        $(".bcgexp,.bcginfo,.bcgcontact,.bcgform").hide({width:'toggle'},350);
-       $(".bcgcompet").animate({width:'toggle'},350);;
+       $(".bcgcompet").animate({width:'toggle'},350);
    });
       $(".exp").click(function(){
        $(".bcgcompet,.bcginfo,.bcgcontact,.bcgform").hide({width:'toggle'},350);
-       $(".bcgexp").animate({width:'toggle'},350);     
+       $(".bcgexp").animate({width:'toggle'},350);
    });
       $(".info").click(function(){
        $(".bcgcompet,.bcgexp,.bcgcontact,.bcgform").hide({width:'toggle'},350);
        $(".bcginfo").animate({width:'toggle'},350);
    });
-      $(".contact").click(function(){       
+      $(".contact").click(function(){
        $(".bcgcompet,.bcginfo,.bcgexp,.bcgform").hide({width:'toggle'},350);
        $(".bcgcontact").animate({width:'toggle'},350);
    });
